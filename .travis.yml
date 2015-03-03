@@ -1,5 +1,21 @@
-name: arity
-ui: mocha-bdd
+language: node_js
+script: make test
+node_js:
+- 0.10.28
+matrix:
+  include:
+  - env: BROWSER_NAME=chrome BROWSER_VERSION=40
+  - env: BROWSER_NAME=chrome BROWSER_VERSION=39
+  - env: BROWSER_NAME=firefox BROWSER_VERSION=35
+  - env: BROWSER_NAME=firefox BROWSER_VERSION=34
+  - env: BROWSER_NAME=ie BROWSER_VERSION=6
+  - env: BROWSER_NAME=ie BROWSER_VERSION=7
+  - env: BROWSER_NAME=ie BROWSER_VERSION=8
+  - env: BROWSER_NAME=ie BROWSER_VERSION=9
+  - env: BROWSER_NAME=ie BROWSER_VERSION=10
+  - env: BROWSER_NAME=ie BROWSER_VERSION=11
+  - env: BROWSER_NAME=safari BROWSER_VERSION=8
+  - env: BROWSER_NAME=safari BROWSER_VERSION=7
 env:
   global:
   - secure: X2bX0cO5oGumcofbtFySGxgb7X6wIa+TMHfWWtZGfrMZPErOuAOdtXXDUw8h6UhU/Qsi8GmZ3qe/uslVJkY8FpKWrhCIPzp2F+PFRc+L8skTlC8n+n4wVg6NV60NBMwtHrCXFiOnVkn4HMp7FRK0+R3roxGF8pEJOVlMF7ppwps=
