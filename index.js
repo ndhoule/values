@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * Module dependencies.
+ */
+
 var keys = require('keys');
 
 /**
@@ -15,7 +19,7 @@ var keys = require('keys');
  * //=> [1, 2, 3]
  */
 
-module.exports = function values(source) {
+var values = function values(source) {
   var ks = keys(source);
   var results = new Array(ks.length);
 
@@ -25,3 +29,9 @@ module.exports = function values(source) {
 
   return results;
 };
+
+/**
+ * Exports.
+ */
+
+module.exports = values;
