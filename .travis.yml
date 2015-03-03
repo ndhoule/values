@@ -1,0 +1,6 @@
+name: arity
+ui: mocha-bdd
+env:
+  global:
+  - secure: X2bX0cO5oGumcofbtFySGxgb7X6wIa+TMHfWWtZGfrMZPErOuAOdtXXDUw8h6UhU/Qsi8GmZ3qe/uslVJkY8FpKWrhCIPzp2F+PFRc+L8skTlC8n+n4wVg6NV60NBMwtHrCXFiOnVkn4HMp7FRK0+R3roxGF8pEJOVlMF7ppwps=
+  - secure: N1U/2GqO7f/MSvp06tJe9RrXqTa8aAIMlhpq8y0htVBhWmZc8TMcVRjs8RXs/ja+VMcAGoocQv6l5hokGhwhmBnmm7Y4fYDAYfWL4FEcXxcw66XK1n/h4Zd//4YtGzvcPUAjpB2vhe/DBWxn/lOsGTeIAH/iltGG9JimjlgO51Q=
