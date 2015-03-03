@@ -1,4 +1,4 @@
-# values [![Circle CI][circleci-badge]][circleci-link]
+# values [![CI][ci-badge]][ci-link]
 
 Create an array of the owned/enumerable values of an input object.
 
@@ -12,5 +12,5 @@ component install ndhoule/values
 
 Released under the [MIT license](LICENSE.md).
 
-[circleci-link]: https://circleci.com/gh/ndhoule/values
-[circleci-badge]: https://circleci.com/gh/ndhoule/values.svg?style=svg&circle-token=84d3dc54ed46d89b5bfb1d867cbe9f2877bf3b24
+[ci-link]: https://travis-ci.org/ndhoule/values
+[ci-badge]: https://travis-ci.org/ndhoule/values.svg?branch=master
