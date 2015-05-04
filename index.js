@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var keys = require('keys');
+var keys = require('@ndhoule/keys');
 
 /**
  * Returns an array containing all enumerable values from a `source` object.

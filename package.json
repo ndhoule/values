@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ndhoule/values",
   "dependencies": {
-    "keys": "git://github.com/ndhoule/keys.git#1.0.0"
+    "@ndhoule/keys": "^1.1.1"
   },
   "devDependencies": {
     "deep-eql": "^0.1.3",
