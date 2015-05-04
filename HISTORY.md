@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Publish as scoped package
+
 ## 1.0.1
 
 - Move git dependencies to npm packages

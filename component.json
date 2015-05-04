@@ -1,7 +1,7 @@
 {
   "name": "values",
   "repo": "ndhoule/values",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create an array of the owned/enumerable values of an input object.",
   "keywords": [
     "functional",
