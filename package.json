@@ -1,6 +1,6 @@
 {
   "name": "values",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create an array of the owned/enumerable values of an input object.",
   "main": "index.js",
   "repository": {
