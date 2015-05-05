@@ -4,7 +4,8 @@
  * Module dependencies.
  */
 
-var keys = require('@ndhoule/keys');
+// XXX: Hacky fix for Duo not supporting scoped modules
+var keys; try { keys = require('@ndhoule/keys'); } catch(e) { keys = require('keys'); }
 
 /**
  * Returns an array containing all enumerable values from a `source` object.
