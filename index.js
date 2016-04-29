@@ -1,11 +1,10 @@
 'use strict';
 
-/**
+/*
  * Module dependencies.
  */
 
-// XXX: Hacky fix for Duo not supporting scoped modules
-var keys; try { keys = require('@ndhoule/keys'); } catch(e) { keys = require('keys'); }
+var keys = require('@ndhoule/keys');
 
 /**
  * Returns an array containing all enumerable values from a `source` object.
@@ -19,7 +18,6 @@ var keys; try { keys = require('@ndhoule/keys'); } catch(e) { keys = require('ke
  * values({ a: 1, b: 2, c: 3 });
  * //=> [1, 2, 3]
  */
-
 var values = function values(source) {
   var ks = keys(source);
   var results = new Array(ks.length);
@@ -31,7 +29,7 @@ var values = function values(source) {
   return results;
 };
 
-/**
+/*
  * Exports.
  */
 
